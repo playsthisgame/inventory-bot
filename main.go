@@ -41,7 +41,7 @@ func sendDiscordAlert(content string) error {
 	webhookURL := "WEB HOOK HERE"
 
 	payload := map[string]string{
-		"content": content,
+		"content": "@everyone " + content,
 	}
 	body, _ := json.Marshal(payload)
 
