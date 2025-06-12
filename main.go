@@ -39,11 +39,7 @@ func checkInventory(url string) (bool, string, error) {
 
 func sendDiscordAlert(content string) error {
 	webhookURL := "WEB HOOK HERE"
-	if webhookURL == "" {
-		return fmt.Errorf("DISCORD_WEBHOOK_URL not set")
-	}
 
-	// Use a struct to safely build the JSON
 	payload := map[string]string{
 		"content": content,
 	}
