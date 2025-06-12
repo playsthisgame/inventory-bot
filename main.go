@@ -67,6 +67,7 @@ func main() {
 	urls := []string{
 		"https://www.bestbuy.com/site/nintendo-switch-2-mario-kart-world-bundle-nintendo-switch-2/6614325.p?skuId=6614325",
 		"https://www.bestbuy.com/site/nintendo-switch-2-system-nintendo-switch-2/6614313.p?skuId=6614313",
+		"https://www.bestbuy.com/site/nvidia-geforce-rtx-5090-32gb-gddr7-graphics-card-dark-gun-metal/6614151.p?skuId=6614151",
 		// "https://www.bestbuy.com/site/sony-playstation-5-dualsense-wireless-controller-midnight-black/6464307.p?skuId=6464307",
 	}
 
